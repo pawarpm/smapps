@@ -71,6 +71,7 @@ st.subheader("Results")
 st.write(f"Moment of Inertia (I): **{I:,.2f} mm⁴**")
 st.write(f"Maximum Bending Stress: **{sigma_max:.2f} N/mm²**")
 st.write(f"Yield Stress: **{fy:.2f} N/mm²**")
+st.write(f"Author: Dr. Prashant M. Pawar (SVERI's College of Engineering, Pandharpur)")
 st.markdown(f"### Safety Check: {safety_message}")
 
 # Show plot
