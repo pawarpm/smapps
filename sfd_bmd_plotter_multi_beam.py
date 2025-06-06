@@ -142,6 +142,7 @@ ax2.set_ylabel("Bending Moment (kNm)")
 ax2.grid(True)
 
 st.subheader("Support Reactions")
+st.write(f"Author: Dr. Prashant M. Pawar (SVERI's College of Engineering, Pandharpur)")
 if beam_type in ["Simply Supported", "Overhanging"]:
     st.write(f"Reaction at A (RA): {RA:.2f} kN")
     st.write(f"Reaction at B (RB): {RB:.2f} kN")
